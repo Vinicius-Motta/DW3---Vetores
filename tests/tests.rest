@@ -1,0 +1,15 @@
+###teste de API ordenar-numeros
+POST http://localhost:40000/ordenar-numeros HTTP/1.1
+Content-Type: application/json
+
+{
+    "numeros": [1,4,7,5,20,9,-1,12,18]
+}
+
+###teste de API ordenar-numeros
+POST http://localhost:40000/obter-min-max HTTP/1.1
+Content-Type: application/json
+
+{
+    "numeros": [1,4,7,6,9,-1,8,12,11,18,15]
+}
